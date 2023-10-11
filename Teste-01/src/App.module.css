@@ -1,0 +1,13 @@
+.body footer a {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 160px;
+    display: flex;
+    justify-content: center;
+    color: var(--gray-2);
+    margin-bottom: 63px;
+
+    margin-top: 120px;
+}

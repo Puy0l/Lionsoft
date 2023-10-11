@@ -1,0 +1,23 @@
+.Body02 {
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    text-decoration: none;
+
+}
+
+.Body02 span {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    width: 85%;
+    margin-left: 90px;
+
+}

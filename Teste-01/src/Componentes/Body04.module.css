@@ -1,0 +1,93 @@
+.job{
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 120px;
+}
+
+
+.choose {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    font-family: DM Sans;
+    color: var(--gray-5);
+    margin: 20px;
+    
+    font-size: 28px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.choose :hover {
+    border: 2px solid var(--black-borderQ);
+    border-bottom: 5px solid var(--green-button);
+}
+
+.soft{
+    background: var( --black-rectangle);
+    padding: 40px 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.soft :hover {
+    border: transparent;
+}
+
+.soft img {
+    width: 50px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.web {
+    background: var( --black-rectangle);
+    padding: 40px 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.web :hover {
+    border: transparent;
+}
+
+.web img {
+    width: 40px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.design {
+    background: var( --black-rectangle);
+    padding: 40px 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.design :hover {
+    border: transparent;
+}
+
+.design img {
+    width: 40px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}

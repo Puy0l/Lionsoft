@@ -1,0 +1,68 @@
+.contentinfo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 22.6px;
+    
+  }
+  
+  .content {
+    flex-direction: column;
+    font-family: DM Sans;
+    margin: 10rem;
+    padding: 0;
+  }
+  
+  .content strong {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    flex-direction: column;
+  }
+  
+  .contentspan h1 {
+    color: var(--gray-3);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    flex-direction: column;
+  }
+  
+  .img {
+    width: 651.26px;
+    height: 700px;
+    margin-left: 88px;
+    border-radius: 50%;
+  
+  }
+  
+  .contentspan span button {
+    width: 100px;
+    font-family: DM Sans;
+    color: var(--white);
+    background: var(--green-button);
+    font-size: 12px;
+    padding: 0.5rem;
+    border: 1px solid var(--black-fundo);
+  }
+  
+  .contentspan button{
+    width: 100px;
+    font-family: DM Sans;
+    border: 1px solid var(--white);
+    background: transparent;
+    color: var(--white);
+    font-size: 12px;
+    padding: 0.5rem;
+    margin-right: 10px;
+  }
+
+  .contentspan button:hover {
+    background: var(--black-fundo);
+    border: 1px solid var(--green-button);
+    color: var(--gray-3);
+
+    transition: 0.5s;
+  }
+
+  

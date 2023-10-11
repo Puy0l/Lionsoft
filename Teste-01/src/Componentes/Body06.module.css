@@ -1,0 +1,83 @@
+.docs {
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 120px;
+    
+}
+
+.docs strong {
+    margin-bottom: 100px;
+}
+
+.info {
+    color: var(--gray-2);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    border-bottom: 2px solid var(--gray-2);
+    height: 20px;
+}
+
+.names {
+    font-family: DM Sans;
+    font-size: 12px;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 150px;
+}
+
+.form textarea{
+    color: var(--gray-2);
+    border: 2px solid var(--gray-2);
+    background: var(--black-fundo);
+    width: 80%;
+    font-size: 14px;
+    justify-content: right;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    margin-left: 95px;
+    
+}
+
+.form button {
+    width: 15%;
+    margin-top: 10px;
+    font-size: 14px;
+    justify-content: center;
+    display: flex;
+    margin-left: 450px;
+    background: var(--green-button);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 33px;
+    padding-right: 31px;
+    color: var(--white);
+}
+
+.form button:hover {
+    border: 1px solid var(--green-button);
+    background: var(--black-fundo);
+    color: var(--gray-2);
+}
+
+.form footer {
+    visibility: hidden;
+    max-height: 0;
+}
+
+.form:focus-within footer {
+    visibility: visible;
+    max-height: none;
+}

@@ -1,0 +1,33 @@
+.mind {
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 120px;
+}
+
+.skill {
+    width: 100%;
+    margin-left: 30px;
+    background: var(--black-rectangle);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    color: var(--gray-2);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.skill strong {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 25px; 
+    color: var(--green-button);
+}
